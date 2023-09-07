@@ -4,6 +4,11 @@
     font-family:Arial, Helvetica, sans-serif
 }
 
+.overlay{
+    background-color: rgba(21, 20, 20, 0.6);
+    min-height: 300px;
+}
+
 body{
     margin: 0;
     width: 100%;
@@ -90,7 +95,7 @@ body{
 }
 
 .container .banner .hero h2{
-    color: red;
+    color: rgb(135, 135, 231);
     text-align: center;
 }
 
@@ -143,21 +148,31 @@ body{
 
 .container .main aside{
     width: 30%;
-    min-height: 100%;
+    min-height: 500px;
+    margin: 0;
     background-image: url(images/erasebg.org-bgchanged.jpg);
     background-size: cover;
 }
 
 .container .main aside h2{
-    margin: 0 auto;
-    width: 50%;
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
 }
 
 .container .main aside ul{
-    margin: 20px auto;
     width: 100%;
-    line-height: 2;
-    color: rgb(105, 105, 40);
+    height: 100%;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.container .main aside ul li{
+    margin-top: 30px;
+    color: white;
+    
 }
 
 .container .footer-widget{
